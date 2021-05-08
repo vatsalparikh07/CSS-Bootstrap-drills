@@ -32,11 +32,11 @@ So you notice that the link is not centered like the h2 and p elements. This is 
 
 # Box Styling
 
-1. Use a class selector to target the .boxes class:
-  add margin
-  add padding
-  add a solid border with a custom color
-  add a border radius to round the edges of the border
+1. Use a class selector to target the .boxes class:\
+  add margin\
+  add padding\
+  add a solid border with a custom color\
+  add a border radius to round the edges of the border\
   add a width of 30em
 2. Use an id selector to add a unique background color to each div.
 
