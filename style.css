@@ -2,15 +2,24 @@ body{
     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: lightgrey;
 }
-
+h2{
+    position: relative;
+    bottom: 50px;
+}
+p{
+    position: relative;
+    bottom: 30px;
+}
 .boxes{
     text-align: center;   
     margin: 20px;
-    padding: 1.7em;
+    padding: 1.5em;
     border: solid mediumaquamarine;
     border-radius: 16px;
     width: 30em;
+    display: block;
 }
+
 #box1{
     background-color: pink;
 }
@@ -20,13 +29,69 @@ body{
 #box3{
     background-color: pink;
 }
+#box4{
+    background-color: pink;
+}
 a{
     color:darkblue;
     text-decoration: none;
+    position: relative;
+    bottom: 10px;
 }
 
 a:hover{
     cursor: pointer;
     font-weight: bold;
     color: brown;
+}
+
+.images{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: yellowgreen;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+
+.original{
+    color: royalblue;
+}
+.additional{
+    color: darkred;
+}
+
+#rank1{
+    color: brown;
+}
+
+#rank2{
+    color: forestgreen;
+}
+
+#rank3{
+    color: chocolate;
+}
+
+#rank4{
+    color:mediumvioletred;
+}
+
+#rank5{
+    color: goldenrod;
+}
+
+ul{
+    color: navy;
+    
+    border: 2px solid black;
+}
+
+.star{
+    color: cadetblue;
+}
+
+#wars{
+    color: firebrick;
 }
